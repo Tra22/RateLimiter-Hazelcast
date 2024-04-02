@@ -18,6 +18,6 @@ public class GlobalExceptionHandler {
                     httpHeaders.set(RateLimiterHeader.RATE_LIMITER_RESET.name, String.valueOf(exception.getConsumptionProbe().getNanosToWaitForReset()));
                     httpHeaders.set(RateLimiterHeader.RATE_LIMITER_REMAINING.name, String.valueOf(exception.getConsumptionProbe().getRemainingTokens()));
                 })
-                .body("Too many request.");
+                .body(exception.getMessage());
     }
 }

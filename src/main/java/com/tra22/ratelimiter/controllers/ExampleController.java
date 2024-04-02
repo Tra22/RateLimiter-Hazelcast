@@ -18,7 +18,6 @@ public class ExampleController   {
     })
     @GetMapping("/example")
     public ResponseEntity<Object> example() {
-
         return ResponseEntity.ok("Ok");
     }
 }
