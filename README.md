@@ -15,7 +15,7 @@ Using cache when your data is not volatile real-time data.
 
 ## Why should using rate limiter on API?
 Rate limiting, also known as API rate limiting, is a crucial practice for ensuring the stability, security, and efficient operation of APIs. Let’s explore why it’s essential:
-  *  Performance Optimization:
+  * Performance Optimization:
     - Efficient Resource Utilization: Without rate limiting, an API could be bombarded with an excessive number of requests, leading to slow performance and resource exhaustion.
     - Predictable Behavior: By enforcing limits on the number of requests, you ensure that your API can handle traffic without becoming overwhelmed.
   * Security Enhancement:
